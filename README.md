@@ -32,3 +32,8 @@ WHERE condition;
 2. SELECT MAX(column_name)
 FROM table_name
 WHERE condition;
+
+SQL LIKE Operator -
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+
